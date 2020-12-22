@@ -57,5 +57,6 @@
 
 ### Usage
 
-All you have to do is enter the string to be encoded and let us do the rest!
+- Run decompress.py
+- All you have to do is enter the string to be encoded and let us do the rest!
 ***
