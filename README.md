@@ -1,2 +1,3 @@
 # Text-Encoder
-Helps in compressing the size of a text using Huffman Coding and decompresses it back to obtain the original text.
+A python administered project which uses Huffman Encoding Technique to compress a text file into a binary file.
+Utilizes Linear Block Codes to identify any errors committed while compression.
