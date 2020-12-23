@@ -37,6 +37,7 @@
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/50694291/102987833-f8d31400-4538-11eb-937d-8c271c3a9c9c.png" width="640px" height="480px"> </p>
+
 ***
 
 ### Linear Block Codes
@@ -46,6 +47,10 @@
 - Linear codes are used in forward error correction and are applied in methods for transmitting symbols (e.g., bits) on a communications channel so that, if errors occur in the communication, some errors can be corrected or detected by the recipient of a message block. The codewords in a linear block code are blocks of symbols that are encoded using more symbols than the original value to be sent.
 
 - A linear code of length n transmits blocks containing n symbols. For example, the [7,4] Hamming code is a linear binary code which represents 4-bit messages using 7-bit codewords. Two distinct codewords differ in at least three bits. As a consequence, the error detecting ability is 2 bits per codeword while the error correcting ability is 1.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50694291/102988626-2ec4c800-453a-11eb-9cde-3b4a3a805e0e.png" width="640px" height="480px"> </p>
+
 ***
 
 ### Decompression
