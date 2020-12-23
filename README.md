@@ -3,11 +3,11 @@
 ## Contents
 
 - [What is this Project About?](#introduction)
-- [What is Huffman Coding?](#What-is-Huffman-Coding)
+- [What is Huffman Coding?](#What-is-Huffman-Coding?)
 - [Theory Behind Huffman Coding](#Theory-Behind-Huffman-Coding)
 - [Linear Block Codes](#Linear-Block-Codes)
 - [Decompression](#Decompression)
-- [Let's run this!](#usage)
+- [Let's run this!](#Usage)
 
 
 ***
@@ -57,13 +57,14 @@
 
 - For the final and easiest step, we use a hashmap data structure. 
 
-- We loop through the binary file and keep adding the binary digits to an empty string, curr_code until it matches with one of the codewords whose corresponding symbol added to the decoded text.
+- We loop through the binary file and keep adding the binary digits to an empty string curr_code until it matches with one of the codewords in the hashmap whose corresponding symbol added to string decode.
 
-- As soon as we add the decoded character or symbol to the decode string, the curr_codestring is again made empty and the same process is repeated.
+- As soon as we add the decoded character or symbol to the decode, the curr_code is again made empty and the same process is repeated from the next binary digit.
 ***
 
 ### Usage
 
-- Run decompress.py
-- All you have to do is enter the string to be encoded and let us do the rest!
+- Run `decompress.py`
+
+- All you have to do is enter a string and let us do the rest!
 ***
