@@ -34,6 +34,9 @@
 - To compress a sequence of characters, we need a table that gives us the sequences of bits used for each character. This table creates an encoding tree that uses the root/leaf path to create a bit sequence to encodes the characters. Using this we can create a list of all characters with the maximum bit length of the encoded characters and the number of occurrences.
 
 - To construct an optimal tree, we use a greedy algorithm. Huffman encoding trees return the minimum length character encodings used in data compression. The nodes in the tree represent the frequency of a character’s occurrence. The root node represents the length of the string, and traversing the tree gives us the character-specific encodings. Once the tree is constructed, traversing the tree gives us the respective codes for each symbol.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50694291/102987833-f8d31400-4538-11eb-937d-8c271c3a9c9c.png" width="640px" height="480px"> </p>
 ***
 
 ### Linear Block Codes
