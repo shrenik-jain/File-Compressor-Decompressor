@@ -3,7 +3,7 @@
 ## Contents
 
 - [What is this Project About?](#introduction)
-- [What is Huffman Coding?](#What-is-Huffman-Coding?)
+- [What is Huffman Coding?](#what-is-huffman-coding)
 - [Theory Behind Huffman Coding](#Theory-Behind-Huffman-Coding)
 - [Linear Block Codes](#Linear-Block-Codes)
 - [Decompression](#Decompression)
