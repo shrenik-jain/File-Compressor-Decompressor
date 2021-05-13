@@ -1,9 +1,8 @@
 # File-Compressor-Decompressor
 
-## Contents
 
 - [Introduction](#introduction)
-- [Hufman Coding Technique](#what-is-huffman-coding)
+- [Hufman Coding](#huffman-coding)
 - [Linear Block Codes](#Linear-Block-Codes)
 - [Decompression](#Decompression)
 - [Usage](#Usage)
@@ -15,18 +14,7 @@
 - Utilizes Linear Block Codes to identify any errors committed while compression.
 ***
 
-### What is Huffman Coding?
-
-- The algorithm was developed by David A. Huffman in the late 19th century as part of his research and is commonly found in programming languages such as C, C++, Java, JavaScript, Python, Ruby, and more.
-
-- Huffman Coding is a way to compress and encode text, based on the frequency of the characters in that text.
-
-- It is an optimal prefix coding technique used for lossless data compression.
-
-- The Huffman encoding for a typical text file saves about 40% of the size of the original data.
-***
-
-### Theory Behind Huffman Coding
+### Huffman Coding
 
 - The thought process behind Huffman encoding is that a letter or a symbol which occurs frequently is represented by a shorter code, and the one that appears rarely is represented by a longer code. This leads to an efficient representation of characters that require less memory to be stored.
 
