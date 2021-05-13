@@ -2,12 +2,11 @@
 
 ## Contents
 
-- [What is this Project About?](#introduction)
-- [What is Huffman Coding?](#what-is-huffman-coding)
-- [Theory Behind Huffman Coding](#Theory-Behind-Huffman-Coding)
+- [Introduction](#introduction)
+- [Hufman Coding Technique](#what-is-huffman-coding)
 - [Linear Block Codes](#Linear-Block-Codes)
 - [Decompression](#Decompression)
-- [Let's run this!](#Usage)
+- [Usage](#Usage)
 
 
 ***
@@ -66,5 +65,4 @@
 
 - Run `decompress.py`
 
-- All you have to do is enter a string and let us do the rest!
 ***
